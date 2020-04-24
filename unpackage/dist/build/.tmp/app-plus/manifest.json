@@ -1,0 +1,180 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__1EA8CD8",
+  "name": "友邻右舍",
+  "version": {
+    "name": "1.0.4",
+    "code": 104
+  },
+  "description": "友邻右舍是国内首家日用家护垂直电商平台。该平台整合全球优质产品资源，让人们足不出户，就可享受全球优质产品，实现真正意义上的方便快捷，省心放心。 友邻右舍将坚守“得实惠，享品质”的经营理念，让高品质产品走入千家万户。友邻右舍通过创新性“三商合一”的全新商业模式，推动全球制造业高品质产品加速流通，开启跨界收益良性循环的全新时代！",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "OAuth": {},
+    "Payment": {},
+    "Share": {},
+    "VideoPlayer": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "render": "always",
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "dark",
+      "background": "#F8F8F8"
+    },
+    "usingComponents": true,
+    "nvueCompiler": "uni-app",
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "static/72.png",
+          "xhdpi": "static/96.png",
+          "xxhdpi": "static/144.png",
+          "xxxhdpi": "static/192.png"
+        },
+        "ios": {
+          "appstore": "static/1024.png",
+          "iphone": {
+            "app@2x": "static/120.png",
+            "app@3x": "static/180.png",
+            "spotlight@3x": "static/120.png",
+            "settings@2x": "static/58.png",
+            "settings@3x": "static/87.png",
+            "notification@2x": "static/40.png",
+            "notification@3x": "static/60.png",
+            "spotlight@2x": "static/80.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "static/480.762.png",
+          "xhdpi": "static/2688.1242.png",
+          "xxhdpi": "static/10801882.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "static/1242.2688.png",
+            "landscape-896h@3x": "static/2688.1242.png",
+            "portrait-896h@2x": "static/828.1792.png",
+            "landscape-896h@2x": "static/1792.828.png",
+            "iphonex": "static/1125.2436.png",
+            "iphonexl": "static/2436.1125.png",
+            "retina55": "static/1242.2208.png",
+            "retina55l": "static/2208.1242.png",
+            "retina47": "static/750.1334.png",
+            "retina47l": "static/1334.750.png",
+            "retina40": "static/640.1136.png",
+            "retina40l": "static/1136.640.png",
+            "retina35": "static/640.960.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_BOOT_COMPLETED\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.RECEIVE_USER_PRESENT\"/>"
+        ]
+      },
+      "apple": {
+        "privacyDescription": {
+          "NSPhotoLibraryUsageDescription": "需要您的同意才能访问相册，用于评论和头像的添加",
+          "NSPhotoLibraryAddUsageDescription": "需要您同意才能添加评论图片和头像到相册",
+          "NSCameraUsageDescription": "需要您的同意才能访问摄像头，用于评论和头像的添加",
+          "NSLocationAlwaysAndWhenInUseUsageDescription": "需要您的同意才能访问您的位置用于定位"
+        },
+        "idfa": false
+      },
+      "plugins": {
+        "oauth": {
+          "weixin": {
+            "appid": "wxf5b73e0207610238",
+            "appsecret": "6a4e9c9f23dfcd271865f1b8e00a4562",
+            "UniversalLinks": "https://open.weixin.qq.com/"
+          }
+        },
+        "payment": {
+          "appleiap": {},
+          "alipay": {},
+          "weixin": {
+            "appid": "wxf5b73e0207610238",
+            "UniversalLinks": "https://open.weixin.qq.com/"
+          }
+        },
+        "share": {
+          "weixin": {
+            "appid": "wxf5b73e0207610238",
+            "UniversalLinks": "https://open.weixin.qq.com/"
+          }
+        },
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "nvueLaunchMode": "fast",
+    "allowsInlineMediaPlayback": true,
+    "uni-app": {
+      "compilerVersion": "2.5.1",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    }
+  }
+}

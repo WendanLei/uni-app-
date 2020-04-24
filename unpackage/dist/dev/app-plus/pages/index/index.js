@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"status_bar { height: var(--status-bar-height); width: 100%; background-color: #F8F8F8; position: fixed; top:0;left:0; }\n.",[1],"top_view { height: var(--status-bar-height); width: 100%; position: fixed; background-color: #F8F8F8; top: 0; z-index: 999; }\n",],undefined,{path:"./pages/index/index.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/index/index.wxml') } }));
